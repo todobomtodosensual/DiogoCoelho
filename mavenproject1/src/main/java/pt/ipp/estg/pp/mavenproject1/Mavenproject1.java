@@ -5,10 +5,9 @@
 package pt.ipp.estg.pp.mavenproject1;
 import java.util.Scanner;
 
-
 public class Mavenproject1 { 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); //serve pra implementar oq importou pra usar aqui
         
         System.out.print("=== CALCULADORA DE DESCONTO ===");        
         System.out.printf("qual o valor original: "); //isto serve perguntar ao utilizador o printf serve pra guardar variaveis
@@ -26,8 +25,5 @@ public class Mavenproject1 {
         System.out.printf("preco final:  %.2f", preco_final );  // este deixate por casas decimais com o %.2f , .
         
                
-         
-        
-        
     }
 }
