@@ -18,7 +18,7 @@ public class projeto2 {
         } else if (valor_total <= 100){
                     desconto = 10;
         }else {
-                desconto = 200;
+                desconto = 20;
         }
                 
         double Valordesconto = valor_total * (desconto/100);
