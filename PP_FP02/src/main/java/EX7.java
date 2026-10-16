@@ -51,7 +51,7 @@ public class EX7 {
         } else {
             System.out.print("inocente");
         }
-            
+        scanner.close();    
         
     }
 }

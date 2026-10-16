@@ -22,5 +22,6 @@ public class EX9 {
         } else {
             System.out.print(valor2);
         }        
+        scanner.close();
     }     
 }
